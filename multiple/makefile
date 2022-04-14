@@ -59,4 +59,4 @@ $(spreads): %: spread.py $$(call spread_to_data,%)
 
 # then the plot is simple, no parameterization needed.
 plot.pdf: $(means) $(spreads) plot.py
-	python plot.py $(data_files)
+	python plot.py $(means) $(spreads)
