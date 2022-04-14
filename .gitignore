@@ -1,0 +1,10 @@
+# generated files
+*.txt
+*.pdf
+
+#pycharm junk
+*.idea
+
+# other
+__pycache__
+*.ipynb_checkpoints*
